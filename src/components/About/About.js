@@ -22,8 +22,8 @@ const About = () => {
               <div class="card-body">
                 <h5 class="card-title">Work with us</h5>
                 <p class="card-text">
-                  At Udemy, we’re all learners and instructors. We live out our
-                  values every day to create a culture that is diverse,
+                  At TechSchool, we’re all learners and instructors. We live out
+                  our values every day to create a culture that is diverse,
                   inclusive, and committed to helping employees thrive.
                 </p>
               </div>
