@@ -19,7 +19,7 @@ const Footer = () => {
           </small>
         </div>
         <div className="text-center">
-          <small>@ 2021 Power-Boosts. All rights reserved</small>
+          <small> ©2021 Power-Boosts. All rights reserved</small>
           <p>
             <i className="fab fa-facebook-f pe-2"></i>
             <i className="fab fa-instagram pe-2"></i>
