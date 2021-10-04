@@ -1,3 +1,12 @@
+# TechSchool
+
+click here(https://nervous-gates-a8ba2c.netlify.app/home)
+
+1.  A website for the people who really want to learn new things.
+2.  We serve with care of our students with our professional instructors.
+3.  We do not compromise our quality! A qualityful course takes time, so we better
+    being late to bring new course rather then come up with ordinery course.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

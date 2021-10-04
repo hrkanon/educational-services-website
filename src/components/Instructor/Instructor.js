@@ -4,8 +4,8 @@ import "./Instructor.css";
 const Instructor = (props) => {
   const { instructor, image, rating, reviews, profession } = props.instructor;
   return (
-    <div className=" col instructor-card shadow px-2 bg-body rounded">
-      <div className="d-flex align-items-center">
+    <div className=" col instructor-card border">
+      <div className="d-flex align-items-center me-2">
         <div className="text-center">
           <img className="rounded-pill w-75" src={image} alt="" />
         </div>
