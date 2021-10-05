@@ -1,6 +1,12 @@
-.about {
-  min-height: 75.5vh;
-}
+/* .about {
+  min-height: 55vh;
+} */
 .about-card {
   height: 200px;
+}
+.heighligts-area {
+  background-image: url("/src/components/Images/funfact.webp");
+  background-position: center center;
+  background-size: cover;
+  height: 95px;
 }

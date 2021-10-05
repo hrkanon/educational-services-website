@@ -8,11 +8,11 @@ const Footer = () => {
         <h4 className="text-center"> TechSchool</h4>
         <div className="text-center">
           <small>
-            <i className="fas fa-map-marker-alt p-1"></i> 11 Kamal Ataturk
-            Avenue, Dhaka
+            <i className="fas fa-map-marker-alt "></i> 11 Kamal Ataturk Avenue,
+            Dhaka
           </small>
           <small>
-            <i className="fas fa-envelope ps-2"></i> admin@techschool.com
+            <i className="fas fa-envelope ps-3"></i> admin@techschool.com
           </small>
           <small>
             <i className="fas fa-phone-alt ps-3"></i> +880 234 567 21

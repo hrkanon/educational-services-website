@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 import img from "../Images/aboutPic.jpeg";
-
 const About = () => {
   return (
     <div>
@@ -16,7 +15,7 @@ const About = () => {
             <img className="w-75" src={img} alt="" />
           </div>
         </div>
-        <div className="row mt-4">
+        <div className="row mt-3 g-2">
           <div className="col-md-4">
             <div className="card text-white bg-info about-card">
               <div className="card-body">
@@ -51,6 +50,28 @@ const About = () => {
                   and more.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="heighligts-area my-3">
+        <div className="container">
+          <div className="row text-white text-center">
+            <div className="col-md-3">
+              <h2>49+</h2>
+              <h2>Teachers</h2>
+            </div>
+            <div className="col-md-3">
+              <h2>30k +</h2>
+              <h2>Students</h2>
+            </div>
+            <div className="col-md-3">
+              <h2>30+</h2>
+              <h2>Courses</h2>
+            </div>
+            <div className="col-md-3">
+              <h2>23+ </h2>
+              <h2>Countries</h2>
             </div>
           </div>
         </div>

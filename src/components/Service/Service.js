@@ -6,7 +6,7 @@ const Service = (props) => {
   const { courseOne, courseTwo, courseThree } = props.service.popularCourses;
   return (
     <div>
-      <div className="col shadow p-2 bg-body service-card">
+      <div className="col shadow p-2 bg-body service-card rounded">
         <div className="d-flex align-items-center">
           <div className="inst-img">
             <img className="rounded-pill" src={image} alt="" />
