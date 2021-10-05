@@ -2,7 +2,8 @@ import React from "react";
 import "./Service.css";
 
 const Service = (props) => {
-  const { course, instructor, price, image, rating, reviews } = props.service;
+  const { instructor, image } = props.service;
+  const { courseOne, courseTwo, courseThree } = props.service.popularCourses;
   return (
     <div>
       <div className="col shadow p-2 bg-body service-card">
@@ -11,11 +12,18 @@ const Service = (props) => {
             <img className="rounded-pill" src={image} alt="" />
           </div>
           <div className="ps-2">
-            <h6 className="fw-bold"> {course}</h6>
-            <h6>by {instructor}</h6>
-            <h6>{rating} stars</h6>
-            <h6>{reviews} reviews</h6>
-            <h4>${price}</h4>
+            <h6 className="fw-bold"> Courses by {instructor}</h6>
+            <div className="courses">
+              <li>
+                <a href="/">{courseOne}</a>
+              </li>
+              <li>
+                <a href="/">{courseTwo}</a>
+              </li>
+              <li>
+                <a href="/">{courseThree}</a>
+              </li>
+            </div>
           </div>
         </div>
       </div>

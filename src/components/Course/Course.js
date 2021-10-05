@@ -4,7 +4,7 @@ import "./Course.css";
 const Course = (props) => {
   const { course, instructor, profession, price, image } = props.course;
   const { courseOne, courseTwo, courseThree } = props.course.popularCourses;
-  console.log(props.course);
+
   return (
     <div>
       <div className="col course-card shadow px-2 bg-body rounded">

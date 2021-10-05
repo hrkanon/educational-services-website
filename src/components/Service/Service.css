@@ -4,3 +4,9 @@
 .inst-img img {
   height: 100px;
 }
+.courses a {
+  text-decoration: none;
+}
+.courses a:hover {
+  text-decoration: underline;
+}

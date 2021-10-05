@@ -14,7 +14,7 @@ const Courses = () => {
     <div className="container my-2">
       <div className="course-container row row-cols-1 row-cols-md-2 g-3">
         {courses.map((course) => (
-          <Course course={course}></Course>
+          <Course key={course.id} course={course}></Course>
         ))}
       </div>
     </div>

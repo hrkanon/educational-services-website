@@ -18,10 +18,10 @@ const About = () => {
         </div>
         <div className="row mt-4">
           <div className="col-md-4">
-            <div class="card text-white bg-info about-card">
-              <div class="card-body">
-                <h5 class="card-title">Work with us</h5>
-                <p class="card-text">
+            <div className="card text-white bg-info about-card">
+              <div className="card-body">
+                <h5 className="card-title">Work with us</h5>
+                <p className="card-text">
                   At TechSchool, we’re all learners and instructors. We live out
                   our values every day to create a culture that is diverse,
                   inclusive, and committed to helping employees thrive.
@@ -30,10 +30,10 @@ const About = () => {
             </div>
           </div>
           <div className="col-md-4">
-            <div class="card text-white bg-warning about-card">
-              <div class="card-body">
-                <h5 class="card-title">See our research</h5>
-                <p class="card-text">
+            <div className="card text-white bg-warning about-card">
+              <div className="card-body">
+                <h5 className="card-title">See our research</h5>
+                <p className="card-text">
                   We’re committed to changing the future of learning for the
                   better. Dig into our original research to learn about the
                   forces that are shaping the modern workplace.
@@ -42,10 +42,10 @@ const About = () => {
             </div>
           </div>
           <div className="col-md-4">
-            <div class="card text-white bg-success about-card">
-              <div class="card-body">
-                <h5 class="card-title">Read our blog</h5>
-                <p class="card-text">
+            <div className="card text-white bg-success about-card">
+              <div className="card-body">
+                <h5 className="card-title">Read our blog</h5>
+                <p className="card-text">
                   Want to know what we’ve been up to lately? Check out the Udemy
                   blog to get the scoop on the latest news, ideas and projects,
                   and more.
