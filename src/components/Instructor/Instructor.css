@@ -1,3 +1,6 @@
 .instructor-card {
   height: 192px;
 }
+.instructor-img img {
+  height: 100px;
+}
